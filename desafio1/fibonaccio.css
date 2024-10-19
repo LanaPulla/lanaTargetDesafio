@@ -1,28 +1,39 @@
 * {
+   box-sizing: border-box; /* Adiciona um box-sizing para facilitar o controle de largura e padding */
+}
+
+body {
    font-family: "Kanit", sans-serif;
+   background-color: beige;
+   margin: 0;
 }
-body{
-   background-color:beige;
-}
-#header{
-   background-color:gray;
+
+#header {
+   background-color: gray;
    text-align: center;
    padding: 50px;
-   font-size: 60px;
-   margin-bottom: 20px;
+   font-size: 40px;
+   margin: 0;   
+   width: 100%; 
 }
 
 #form {
    display: flex;
    justify-content: center;
    font-size: 30px;
+   padding: 20px; 
 }
 
-#result{
-    display: flex;
-    justify-content: center;
+#result {
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   padding: 20px; 
+   width: 100%; 
 }
-#button{
-   margin:12px;
+
+#button {
+   margin: 12px;
 }
+
 
